@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pendaftaran Siswa Baru - Great Education</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container pendaftaran-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                
+                <div class="panel panel-default form-pendaftaran-box">
+                    <div class="panel-body">
+                        
+                        <div class="text-center form-header">
+                            <h2><b>FORMULIR PENDAFTARAN</b></h2>
+                            <p class="text-muted">Isi data diri dengan lengkap untuk bergabung bersama Great Education</p>
+                            <hr class="garis-hijau">
+                        </div>
+
+                        <form action="#" method="post">
+                            
+                            <legend><h4><b><span class="glyphicon glyphicon-user"></span> Data Calon Siswa</b></h4></legend>
+                            
+                            <div class="form-group">
+                                <label for="nama">Nama Lengkap Siswa</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+                                    <input type="text" class="form-control" id="nama" placeholder="Masukkan nama lengkap siswa" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="sekolah">Asal Sekolah</label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
+                                            <input type="text" class="form-control" id="sekolah" placeholder="Contoh: SMAN 1 Jakarta" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="jenjang">Pilihan Jenjang Kelas</label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-education"></span></span>
+                                            <select class="form-control" id="jenjang" required>
+                                                <option value="">-- Pilih Jenjang --</option>
+                                                <option value="sd">SD (Kelas 1 - 6)</option>
+                                                <option value="smp">SMP (Kelas 7 - 9)</option>
+                                                <option value="sma">SMA (Kelas 10 - 12)</option>
+                                                <option value="ptn">Persiapan PTN / Alumni</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <legend style="margin-top: 30px;"><h4><b><span class="glyphicon glyphicon-phone"></span> Informasi Kontak</b></h4></legend>
+                            
+                            <div class="form-group">
+                                <label for="ortu">Nama Orang Tua / Wali</label>
+                                <input type="text" class="form-control" id="ortu" placeholder="Nama ayah atau ibu" required>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="whatsapp">Nomor WhatsApp Aktif</label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><b>+62</b></span>
+                                            <input type="tel" class="form-control" id="whatsapp" placeholder="Contoh: 812345678" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email">Alamat Email</label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><b>@</b></span>
+                                            <input type="email" class="form-control" id="email" placeholder="nama@email.com" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <legend style="margin-top: 30px;"><h4><b><span class="glyphicon glyphicon-th-list"></span> Metode Kelas</b></h4></legend>
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label class="metode-panel-label">
+                                        <input type="radio" name="metode" value="online" checked class="hidden-radio">
+                                        <div class="panel panel-default metode-card text-center">
+                                            <div class="panel-body">
+                                                <span class="glyphicon glyphicon-globe icon-metode"></span>
+                                                <h4><b>Kelas Online</b></h4>
+                                                <p class="text-muted small">Belajar via Zoom interaktif & modul digital gratis.</p>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="metode-panel-label">
+                                        <input type="radio" name="metode" value="offline" class="hidden-radio">
+                                        <div class="panel panel-default metode-card text-center">
+                                            <div class="panel-body">
+                                                <span class="glyphicon glyphicon-map-marker icon-metode"></span>
+                                                <h4><b>Kelas Tatap Muka</b></h4>
+                                                <p class="text-muted small">Datang langsung ke cabang kelas pusat terdekat.</p>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div style="margin-top: 30px;">
+                                <button type="submit" class="btn btn-success btn-lg btn-block tombol-daftar">
+                                    <b>SUBMIT PENDAFTARAN SEKARANG</b>
+                                </button>
+                            </div>
+
+                            <div style="margin-bottom: 15px;">
+                                <a href="index.html" class="btn btn-default btn-kembali">
+                               <span class="glyphicon glyphicon-arrow-left"></span> Kembali ke Beranda
+                              </a>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

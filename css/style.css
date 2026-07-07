@@ -1,0 +1,396 @@
+
+body {
+    padding-top: 70px; /* Jarak aman agar konten tidak tertutup fixed navbar */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #f9f9f9; /* Background abu-abu soft universal */
+}
+
+.bayangan-halus {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.font-bold {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+ 
+.garis-pembatas {
+    width: 60px;
+    border-top: 3px solid #27ae60;
+    margin: 10px auto 40px auto;
+}
+
+.garis-hijau {
+    width: 80px;
+    border-top: 3px solid #27ae60;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.garis-hijau-kiri {
+    width: 60px;
+    border-top: 3px solid #27ae60;
+    margin: 15px auto 25px 0;
+}
+
+
+ 
+.navbar-default {
+    background-color: #ffffff;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.navbar-default .navbar-brand {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #27ae60;
+    color: #ffffff;
+    padding: 100px 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+
+ 
+.fitur-box {
+    background: #ffffff;
+    padding: 30px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    transition: all 0.3s ease;
+}
+
+.fitur-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.fitur-box .glyphicon {
+    font-size: 40px;
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+ 
+.visi-misi-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    min-height: 320px;
+}
+
+.visi-misi-box h3 {
+    color: #27ae60;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.visi-misi-box ul.misi-list {
+    padding-left: 20px;
+}
+
+.visi-misi-box ul.misi-list li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+ 
+.warga-box {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+.warga-box img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px auto; 
+    border: 3px solid #27ae60;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.warga-box h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.warga-box .jabatan {
+    color: #27ae60;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.warga-box .deskripsi-warga {
+    font-size: 13px;
+    color: #666666;
+}
+
+
+  
+.pendaftaran-container {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.form-pendaftaran-box {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+    padding: 20px;
+}
+
+.form-header h2 {
+    color: #333333;
+    letter-spacing: 1px;
+}
+
+.form-pendaftaran-box .form-control {
+    height: 42px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #cccccc;
+}
+
+.form-pendaftaran-box select.form-control {
+    height: 42px;
+}
+
+.form-pendaftaran-box .input-group-addon {
+    background-color: #f8f9fa;
+    border: 1px solid #cccccc;
+    color: #27ae60;
+    min-width: 45px;
+}
+
+ 
+.well {
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.well h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+ 
+.btn-success.btn-block, .tombol-daftar {
+    font-weight: bold;
+    padding: 12px;
+    background-color: #27ae60 !important;
+    border-color: #27ae60 !important;
+    font-size: 15px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.btn-success.btn-block:hover, .tombol-daftar:hover {
+    background-color: #219653 !important;
+    border-color: #219653 !important;
+    transform: translateY(-2px);
+}
+
+ 
+.col-md-6 h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.col-md-6 p {
+    margin-bottom: 15px;
+}
+
+.col-md-6 .glyphicon {
+    color: #27ae60;
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 3px;
+}
+
+ 
+.metode-panel-label {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.hidden-radio {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.metode-card {
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.metode-card:hover {
+    border-color: #27ae60;
+}
+
+.icon-metode {
+    font-size: 30px;
+    color: #999999;
+    margin-bottom: 10px;
+    transition: color 0.2s ease;
+}
+
+.hidden-radio:checked + .metode-card {
+    border-color: #27ae60;
+    background-color: #f4fbf7;
+}
+
+.hidden-radio:checked + .metode-card .icon-metode {
+    color: #27ae60;
+}
+
+.faq-title {
+    color: #8b0000; /* Maroon sesuai gambar referensi sebelumnya */
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 18px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+.faq-question:hover {
+    background-color: #f9f9f9;
+}
+
+.faq-question .glyphicon {
+    color: #777777;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.faq-answer {
+    background-color: #fafafa;
+    border-top: 1px solid #f0f0f0;
+}
+
+.faq-answer p {
+    padding: 15px 20px;
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+ 
+.judul-tentang {
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+
+.gambar-profil-box {
+    margin-top: 20px;
+}
+
+.foto-tentang {
+    margin-top: 70px;
+}
+
+.stat-item {
+    padding: 20px 10px;
+}
+
+.angka-stat {
+    font-size: 45px;
+    font-weight: bold;
+    color: #6ae89f;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.visi-box, .misi-box {
+    padding: 20px 10px;
+}
+
+.visi-box h3, .misi-box h3 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.visi-box h3 .glyphicon, .misi-box h3 .glyphicon {
+    color: #27ae60;
+    margin-right: 10px;
+}
+
+.visi-box p, .list-misi {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555555;
+}
+
+.list-misi {
+    padding-left: 20px;
+}
+
+.list-misi li {
+    margin-bottom: 12px;
+}
+
+
+
+footer {
+    background-color: #542e07; /* Charcoal abu gelap metalik */
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+@media (max-width: 991px) {
+    .col-md-6[style*="padding-left"] {
+        padding-left: 15px !important;
+        margin-top: 30px;
+    }
+}
